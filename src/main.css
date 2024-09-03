@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		@apply box-border list-none p-0 m-0 scroll-smooth;
+	}
+	body {
+		@apply container max-w-screen-2xl mx-auto;
+	}
+}
